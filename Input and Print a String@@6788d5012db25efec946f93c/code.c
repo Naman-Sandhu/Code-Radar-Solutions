@@ -3,8 +3,8 @@
 
 
 int main() {
-    ch n;
-    n="h"
-    printf("%c",n);
+    char ch[50] ;
+    scanf("%s",&ch);
+    printf("You entered: %s",ch);
     return 0;
 }
