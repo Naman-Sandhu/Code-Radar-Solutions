@@ -6,5 +6,5 @@ int main() {
     for(i=1 ; i<=n ; i++){
         sum= sum+i;
     }
-    return 0;
+    return sum;
 }
