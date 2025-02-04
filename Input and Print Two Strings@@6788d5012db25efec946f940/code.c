@@ -10,7 +10,7 @@ int main() {
     getchar(); 
     printf("");
     scanf("%49[^\n]", b);
-    printf("You entered: %s, and %s", a, b);
+    printf("You entered:  and %s", a, b);
 
     return 0;
 }
