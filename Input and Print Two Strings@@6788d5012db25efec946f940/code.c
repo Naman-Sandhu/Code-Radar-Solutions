@@ -5,12 +5,10 @@ int main() {
 
 
     printf("");
-    scanf("%49[^\n]", a);  
-    
-    getchar(); 
+    scanf("%49[^\n]", a); 
     printf("");
     scanf("%49[^\n]", b);
-    printf("You entered:  and %s", a, b);
+    printf("You entered: %s", a, b);
 
     return 0;
 }
