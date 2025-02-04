@@ -8,6 +8,6 @@ int main() {
     printf("");
     scanf("%f",&m);
     p=n*m;
-    printf("%.2f", n m);
+    printf("%.2f", p);
     return 0;
 }
