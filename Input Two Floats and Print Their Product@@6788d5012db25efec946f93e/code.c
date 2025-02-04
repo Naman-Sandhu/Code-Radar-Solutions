@@ -7,6 +7,6 @@ int main() {
     printf("enter a float");
     scanf("%d",&n &m);
     p=n*m;
-    printf("%d", n m);
+    printf("%d.2f", n m);
     return 0;
 }
