@@ -7,7 +7,7 @@ int main() {
     printf("Enter the second float number: ");
     scanf("%f", &m);
     p = n * m;
-    printf("The product of %.2f and %.2f is: %.2f\n", n, m, p);
+    printf("Product: %.2f\n",p);
 
     return 0;
 }
