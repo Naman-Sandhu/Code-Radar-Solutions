@@ -2,11 +2,12 @@
 
 
 int main() {
-    float n ,m ;
-    float product;
+    float n ,m ,float;
     printf("");
-    scanf("%f",&n &m);
+    scanf("%f",&n);
+    printf("");
+    scanf("%f",&m);
     p=n*m;
-    printf("%f", n m);
+    printf("%.2f", n m);
     return 0;
 }
