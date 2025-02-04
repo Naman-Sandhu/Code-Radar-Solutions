@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char a[50], b[50];
-
+    char a[50];
+    char b[50];
 
     printf("");
     scanf("%49[^\n]", a); 
