@@ -2,9 +2,9 @@
 
 int main() {
     float n, m, p;  
-    printf("Enter the first float number: ");
+    printf("");
     scanf("%f", &n);
-    printf("Enter the second float number: ");
+    printf("");
     scanf("%f", &m);
     p = n * m;
     printf("Product: %.2f\n",p);
