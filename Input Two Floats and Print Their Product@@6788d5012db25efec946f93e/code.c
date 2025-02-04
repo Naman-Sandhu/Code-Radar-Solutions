@@ -3,10 +3,10 @@
 
 int main() {
     float n ,m ;
-    float p;
-    printf("enter a float");
-    scanf("%d",&n &m);
+    float product;
+    printf("");
+    scanf("%f",&n &m);
     p=n*m;
-    printf("%d.2f", n m);
+    printf("%f", n m);
     return 0;
 }
