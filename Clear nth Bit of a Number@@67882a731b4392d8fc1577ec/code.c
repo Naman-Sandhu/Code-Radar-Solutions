@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    int n , number;
+    int num, n;
     printf("");
-    scanf("%d %d",&n,&number);
+    scanf("%d %d",&num,&n);
     int mask = ~(1 << n);
-    int result = number & mask;
+    int result = numb & mask;
     printf("%d",result);
 }
