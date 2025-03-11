@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
-    int number =29;
-    int n=3;
+    int number =5;
+    int n=0;
+    printf("");
+    scanf("%d %d",&number,&n);
     int bit =(number>>n)&1;
-    printf("The %dth bit of %d is: %d\n", n, number, bit);
+    printf(" %d",  bit);
 }
