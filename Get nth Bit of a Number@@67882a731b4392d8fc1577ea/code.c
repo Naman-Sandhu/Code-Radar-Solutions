@@ -5,5 +5,5 @@ int main(){
     printf("");
     scanf("%d %d",&number,&n);
     int bit =(number>>n)&1;
-    printf(" %d",  bit);
+    printf("%d", bit);
 }
