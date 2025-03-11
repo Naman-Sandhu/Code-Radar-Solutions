@@ -5,5 +5,5 @@ int main(){
     scanf("%d %d",&n,&number);
     int mask = ~(1 << n);
     number = number & mask;
-    printf("%d",n);
+    printf("%d",mask);
 }
