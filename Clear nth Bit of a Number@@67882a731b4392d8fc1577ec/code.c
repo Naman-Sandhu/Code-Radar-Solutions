@@ -4,6 +4,6 @@ int main(){
     printf("");
     scanf("%d %d",&n,&number);
     int mask = ~(1 << n);
-    numbr = number & mask;
-    printf("%d",numbr);
+    number = number & mask;
+    printf("%d",number);
 }
