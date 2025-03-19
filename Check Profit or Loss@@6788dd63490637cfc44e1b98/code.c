@@ -2,8 +2,8 @@
 int main(){
     int cs_price , sl_price;
     scanf("%d %d",&cs_price,&sl_price);
-    profit=cs_price+sl_price;
-    Loss=cs_price-sl_price;
+    int profit=cs_price+sl_price;
+    int Loss=cs_price-sl_price;
     if(profit>Loss){
         printf("Profit");
     }
