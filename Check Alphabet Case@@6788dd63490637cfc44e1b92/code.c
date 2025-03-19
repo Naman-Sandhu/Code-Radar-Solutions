@@ -1,11 +1,12 @@
 #include<stdio.h>
+#include<type.c>
 int main(){
-    int cap, lil;
+    int ch;
     scanf("%d %d",&cap,&lil);
-    if(cap==A){
+    if(isupper(ch)){
         printf("Uppercase");
     }
-    else if(lil==a){
+    else if(islower(ch)){
         printf("Lowercase");
     }
 }
