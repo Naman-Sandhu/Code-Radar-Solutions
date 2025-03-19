@@ -8,5 +8,9 @@ int main(){
     else if(m>n){
         printf("%d",m);
     }
+    else{
+        printf("0");
+
+    }
     
 }
