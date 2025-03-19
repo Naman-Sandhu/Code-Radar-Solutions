@@ -1,12 +1,15 @@
 #include<stdio.h>
 int main(){
-    int pr,ls;
-    scanf("%d %d",&pr,&ls);
-    if(pr>ls){
+    int cs_price , sl_price;
+    scanf("%d %d",&cs_price,&sl_price);
+    if(cs_price>sl_price){
         printf("Profit");
     }
-    else if(ls>pr){
+    else if(sl_price>cs_price){
         printf("Loss");
+    }
+    else{
+        printf("No Profit No Loss")
     }
 
 }
