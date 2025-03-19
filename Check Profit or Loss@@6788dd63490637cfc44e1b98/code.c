@@ -2,16 +2,14 @@
 int main(){
     int cs_price , sl_price;
     scanf("%d %d",&cs_price,&sl_price);
-    int profit=cs_price+sl_price;
-    int Loss=cs_price-sl_price;
-    if(profit>Loss){
+    int diff = sl_price-cs_price;
+    if(diff>0){
         printf("Profit");
     }
-    else if(Loss>profit){
+    else if(diff<0){
         printf("Loss");
     }
-    else if(profit==Loss){
+    else if(diff == 0){
         printf("No Profit No Loss");
     }
-
 }
