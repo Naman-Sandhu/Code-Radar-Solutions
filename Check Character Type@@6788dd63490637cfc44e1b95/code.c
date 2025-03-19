@@ -9,7 +9,7 @@ int main(){
     else if(isdigit(ch)){
         printf("Digit");
     }
-    if(ch=='a' || ch=='i' || ch=='e' || ch=='o' || ch=='u'){
+    else if(ch=='a' || ch=='i' || ch=='e' || ch=='o' || ch=='u'){
         printf("Vowel");
     }
     else{
