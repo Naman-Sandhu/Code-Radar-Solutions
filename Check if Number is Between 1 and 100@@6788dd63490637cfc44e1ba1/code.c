@@ -2,11 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
-    if(n==1 && n>101){
+   for(int i =1 ; n>=100 ; i++){
+    if(i==1 && i>100){
         printf("In Range");
     }
-    else {
-        printf("Out of Range");
-    }
+   }
     
 }
