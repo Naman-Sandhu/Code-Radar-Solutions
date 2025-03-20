@@ -1,6 +1,5 @@
 #include<stdio.h>
-int prime(){
-    int n;
+int prime(int n){
     for(int i =2 ; i*i <n ; i++){
         if(n%1==0){
         return 0;
@@ -13,9 +12,6 @@ int main(){
     scanf("%d",&x);
     if(prime(x)){
         printf("Prime");
-    }
-    else if(x>2){
-        printf("Not Prime");
     }
     else{
         printf("Not Prime");
