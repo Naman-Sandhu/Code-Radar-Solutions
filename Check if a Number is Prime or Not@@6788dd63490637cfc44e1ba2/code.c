@@ -10,7 +10,7 @@ int prime(int n){
 int main(){
     int x;
     scanf("%d",&x);
-    if(prime(x) && prime(x)>1){
+    if(prime(x)){
         printf("Prime");
     }
     else if(x>2){
