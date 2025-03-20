@@ -10,8 +10,11 @@ int prime(int n){
 int main(){
     int x;
     scanf("%d",&x);
-    if(prime(x)){
+    if(prime(x) && prime(x)>1){
         printf("Prime");
+    }
+    else if(x>2){
+        printf("Not Prime");
     }
     else{
         printf("Not Prime");
