@@ -4,7 +4,7 @@ int range(int n){
         if(i<=100){
             return 1;
         }
-        else if(i<100 && i>100){
+        else if(i>100){
             return 0;
         }
     }
