@@ -1,6 +1,5 @@
 #include<stdio.h>
-int prime(){
-    int n;
+int prime(int n){
      if (n <= 1) {
         return 0;
     } 
@@ -9,7 +8,7 @@ int prime(){
         if(n%i==0){
         return 0;
          }
-          }
+    }
     return 1;
 }
 int main(){
