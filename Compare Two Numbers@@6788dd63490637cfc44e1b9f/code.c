@@ -8,7 +8,7 @@ int main(){
     else if(n>m){
         printf("First");
     } 
-    else if(m>n){
+    else{
         printf("Second");
     }
    
