@@ -6,7 +6,7 @@ int main(){
         printf("Same Sign");
     }
     else if(n1==n2){
-        printf("Same Sign")
+        printf("Same Sign");
     }
     else{
         printf("Different");
