@@ -8,7 +8,7 @@ int main(){
     else if(m>n){
         printf("Second");
     }
-    else if(m==n && n==m){
+    else if(n==m){
         printf("Equal");
     }
 }
