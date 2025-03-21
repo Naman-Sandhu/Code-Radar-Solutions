@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n,m;
-    escanf("%d",&n,&m);
+    scanf("%d",&n,&m);
     if(n>m){
         printf("First");
     }
