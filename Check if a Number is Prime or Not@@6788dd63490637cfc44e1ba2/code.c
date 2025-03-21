@@ -18,9 +18,6 @@ int main(){
     if(prime(x)){
         printf("Prime");
     }
-    else if(x>2){
-        printf("Not Prime");
-    }
     else{
         printf("Not Prime");
     }
