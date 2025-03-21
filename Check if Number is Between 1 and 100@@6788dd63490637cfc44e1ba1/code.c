@@ -4,9 +4,6 @@ int range(int n){
         if(i<=100){
             return 1;
         }
-        else if(i>100){
-            return 0;
-        }
     }
 }
 int main() {
@@ -16,7 +13,7 @@ int main() {
         printf("In Range");
 
     }
-    else{
+    else if (range(x)<1 && range(x)>100){
         printf("Out of Range");
     }
  
