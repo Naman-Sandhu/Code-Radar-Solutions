@@ -1,18 +1,11 @@
 #include <stdio.h>
-int range(int n){
-        if(n <= 100){
-            return 1;
-        }
-        return 0;
-}
 int main() {
     int x;
     scanf("%d",&x);
-    if(range(x)){
+    if(x<=100){
         printf("In Range");
     }
     else{
         printf("Out of Range");
     }
- 
 }
