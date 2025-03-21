@@ -12,7 +12,7 @@ int range(int n){
 int main() {
     int x;
     scanf("%d",&x);
-    if(range(int x)){
+    if(range(x)){
         printf("In Range");
 
     }
