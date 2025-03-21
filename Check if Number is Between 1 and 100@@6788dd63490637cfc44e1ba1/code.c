@@ -2,8 +2,6 @@
 
 int main() {
     int lowerBound, upperBound;
-
-    // Input the range limits
     printf("Enter the lower bound of the range: ");
     scanf("%d", &lowerBound);
     printf("Enter the upper bound of the range: ");
