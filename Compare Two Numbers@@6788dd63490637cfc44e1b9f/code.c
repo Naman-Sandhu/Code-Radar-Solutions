@@ -2,13 +2,14 @@
 int main(){
     int n,m;
     scanf("%d",&n,&m);
-    if(n>m){
-        printf("First");
+    if(n==m){
+        printf("Equal");
     }
+    else if(n>m){
+        printf("First");
+    } 
     else if(m>n){
         printf("Second");
     }
-    else if(n==m){
-        printf("Equal");
-    }
+   
 }
