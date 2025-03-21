@@ -5,8 +5,8 @@ int prime(){
         return 0;
     } 
     
-    for(int i =2 ; i*i < n ; i++){
-        if(n%1==0){
+    for(int i = 2 ; i*i < n ; i++){
+        if(n%1!=0){
         return 0;
          }
           }
