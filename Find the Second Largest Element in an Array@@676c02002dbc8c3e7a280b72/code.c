@@ -11,7 +11,7 @@ int max=0;
 int second ;
 for(int i = 0 ; i < size ; i++){
     if(array[i]>max){
-     max=array[i]
+     max=array[i];
      array[i]=second;
     }
 }
