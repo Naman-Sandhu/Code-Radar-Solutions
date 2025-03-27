@@ -7,8 +7,8 @@ int main(){
     for(int i =0 ; i < size ; i++){
         scanf("%d",&array[i]);
     }
-    int even = 0 ;
-    int odd = 0 ;
+    int even ;
+    int odd ;
     for(int i = 0 ; i < size ; i++){
         if(array[i]%2==0){
             even = array[i];
