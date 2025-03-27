@@ -11,7 +11,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         if(array[i] == target) {
             printf("%d",i);
-            breK;
+            break;
         }
     }
     return -1;
