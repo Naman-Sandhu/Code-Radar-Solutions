@@ -10,7 +10,8 @@ int main() {
     scanf("%d", &target);
     for(int i = 0; i < n; i++) {
         if(array[i] == target) {
-            return i;
+            printf("%d",i);
+            breK;
         }
     }
     return -1;
