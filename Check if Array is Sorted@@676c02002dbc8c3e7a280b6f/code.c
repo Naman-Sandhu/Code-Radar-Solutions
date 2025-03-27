@@ -9,21 +9,21 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
-
-    int sorted = 1;
-    for (int i = 0; i < n - 1; i++) {
-        if (arr[i] > arr[i + 1]) {
-            sorted = 0;
-            break;
-        }
+int sorted = 1 ; 
+for(int i = 0 ; i < n ; i++){
+    if(arr[i]>arr[i+1]){
+        sorted=0;
+        break;
     }
+}
+if(sorted){
+    printf("Sorted\n");
+}
+else{
+    printf("Not Sorted");
+}
 
-    if (sorted) {
-        printf("Sorted\n");
-    } else {
-        printf("Not Sorted\n");
-    }
+
 
     return 0;
 }
