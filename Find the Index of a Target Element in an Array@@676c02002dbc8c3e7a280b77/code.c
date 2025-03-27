@@ -11,8 +11,8 @@ int main() {
     for(int i = 0; i < n; i++) {
         if(array[i] == target) {
             printf("%d",i);
-            break;
+            return 0;
         }
     }
-    printf("-1");
+    printf(-1);
 }
