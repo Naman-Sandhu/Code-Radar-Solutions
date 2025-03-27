@@ -11,7 +11,7 @@ int main() {
         scanf("%d", &array[i]);
     }
 
-    printf("Non-repeating elements in reverse order:\n");
+    printf("");
     
     // Array to track printed elements
     int printed[size];
