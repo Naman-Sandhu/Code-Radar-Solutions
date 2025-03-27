@@ -5,7 +5,7 @@ int main(){
     int array[n];
     int size=sizeof(array)/sizeof(array[0]);
     for(int i=0 ; i < size ; i++){
-        scanf("%d",array[i]);
+        scanf("%d",&array[i]);
     }
     int max=0;
     int min=0;
