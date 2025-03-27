@@ -1,24 +1,33 @@
 #include<stdio.h>
-int main(){
-    int n ;
-    scanf("%d",&n);
+#include<limits.h> // For INT_MIN
+
+int main() {
+    int n;
+    scanf("%d", &n);
     int array[n];
-    int size = sizeof(array)/sizeof(array[0]);
-    for(int i = 0 ; i < size ; i++){
-        scanf("%d",&array[i]);
+    
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &array[i]);
     }
-    int max = 0;
-    int sec = 0;
-    for(int i=0;i<size;i++){
-        if(array[i] > max){
+
+    int max = INT_MIN;
+    int sec = INT_MIN;
+
+    for (int i = 0; i < n; i++) {
+        if (array[i] > max) {
+            sec = max;  // Update second max before updating max
             max = array[i];
+        } 
+        else if (array[i] > sec && array[i] != max) {
+            sec = array[i];
         }
     }
-    for(int i=0;i<size;i++){
-        if(array[i] > max){
-            max = array[i];
-            sec = max;
-        }
+
+    if (sec == INT_MIN) {
+        printf("No second largest element exists.\n");
+    } else {
+        printf("%d\n", sec);
     }
-    printf("%d",sec);
+
+    return 0;
 }
