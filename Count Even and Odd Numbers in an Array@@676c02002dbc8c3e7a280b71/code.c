@@ -25,3 +25,4 @@ int main(){
     }
     printf("%d %d",&even,&odd);
 }
+}
