@@ -24,7 +24,7 @@ int main() {
     }
 
     if (sec == INT_MIN) {
-        printf("No second largest element exists.\n");
+        printf("-1");
     } else {
         printf("%d\n", sec);
     }
