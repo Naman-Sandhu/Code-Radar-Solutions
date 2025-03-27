@@ -12,14 +12,14 @@ int main(){
     for(int i = 0 ; i < size ; i++){
         if(array[i]%2==0){
             even = array[i];
-            
+            break;
         }
-        break;
+        
         else if (array[i]%2!=0){
             odd = array[i] ;
-        
+            break;
         }
-        break;
+        
 
     }
     printf("%d %d",even,odd);
