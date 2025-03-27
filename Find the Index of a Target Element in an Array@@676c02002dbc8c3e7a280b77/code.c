@@ -1,19 +1,17 @@
 #include<stdio.h>
-int main(){
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int array[n];
-    int size = sizeof(array)/sizeof(array[0]);
-    for(int i = 0 ; i < size ; i++){
+    for(int i = 0; i < n; i++) {
         scanf("%d", &array[i]);
     }
     int target;
-    scanf("%d",&target);
-    for(int i = 0 ; i < size ; i++){
-        if(array[i] == target){
+    scanf("%d", &target);
+    for(int i = 0; i < n; i++) {
+        if(array[i] == target) {
             return 0;
         }
     }
     return -1;
 }
-
