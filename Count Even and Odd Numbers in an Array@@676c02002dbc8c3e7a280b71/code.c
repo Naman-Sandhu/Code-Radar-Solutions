@@ -7,13 +7,13 @@ int main(){
     for(int i =0 ; i < size ; i++){
         scanf("%d",&array[i]);
     }
-    int even ;
-    int odd ;
+    int even = 0 ;
+    int odd = 0 ;
     for(int i = 0 ; i < size ; i++){
-        if(array[i]%2==0){
+        if(even == 0 && array[i]%2==0){
             even = array[i];
         }
-        else if (array[i]%2!=0){
+        else if (odd == 0 && array[i]%2!=0){
             odd = array[i] ;
         }
     }
