@@ -7,26 +7,14 @@ int main(){
     for(int i =0 ; i < size ; i++){
         scanf("%d",&array[i]);
     }
-    int count=0;
-    int count1 =0;
+    int even =0  ;
+    int odd = 0 ;
     for(int i = 0 ; i < size ; i++){
         if(array[i]%2==0){
-            count++;
+            even = array[i];
         }
-        else {
-            count1++;
-        }
-    }
-    int even[count];
-    int odd[count1];
-    int k = 0;
-    int j = 0;
-    for(int i =0 ; i < size ; i++){
-        if(array[i]%2==0){
-            even[k++]=array[i];
-        }
-        else{
-            odd[j++]=array[i];
+        else if (array[i]%2!=0){
+            odd = array[i] ;
         }
     }
     printf("%d %d",even,odd);
