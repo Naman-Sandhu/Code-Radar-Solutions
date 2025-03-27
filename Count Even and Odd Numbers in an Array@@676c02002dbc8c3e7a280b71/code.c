@@ -13,7 +13,7 @@ int main(){
         if(array[i]%2==0){
             even = array[i];
         }
-        else {
+        else if (array[i]%2!=0){
             odd = array[i] ;
         }
     }
