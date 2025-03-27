@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &target);
     for(int i = 0; i < n; i++) {
         if(array[i] == target) {
-            return 0;
+            return i;
         }
     }
     return -1;
