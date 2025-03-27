@@ -7,10 +7,12 @@ int main(){
     for(int i = 0 ; i < size ; i++){
         scanf("%d",&array[i]);
     }
-    int index;
+    int target;
+    scanf("%d",&target);
     for(int i = 0 ; i < size ; i++){
-           index=i;
+        if(array[i] == target){
+            return i;
+        }
     }
-
-
+    return -1;
 }
