@@ -2,7 +2,7 @@
 #include <stdbool.h>
 bool prime(int x){
     int p = 1;
-    for(int i = 2 ; i*i < x ; i++){
+    for(int i = 2 ; i*i <= x ; i++){
         if(x%i==0){
             p=0;
         }
