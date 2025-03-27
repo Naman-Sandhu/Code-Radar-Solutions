@@ -10,12 +10,12 @@ int main(){
     int even_count =0  ;
     int odd_count  = 0 ;
     for(int i = 0 ; i < size ; i++){
-        if(even==0 && array[i]%2==0){
+        if(array[i]%2==0){
             even_count++;
             
         }
         
-        else if (odd==0 && array[i]%2!=0){
+        else if (array[i]%2!=0){
             odd_count++ ;
           
         }
