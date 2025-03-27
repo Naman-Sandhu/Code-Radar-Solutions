@@ -7,9 +7,9 @@ int main(){
     for(int i = 0 ; i < size ; i++){
         scanf("%d",&array[i]);
     }
-    int index;
     for(int i = 0 ; i < size ; i++){
-        printf("%d",i);   
+        printf("%d",array[i]);   
     }
     
+
 }
