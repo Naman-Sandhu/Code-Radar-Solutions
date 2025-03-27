@@ -12,8 +12,6 @@ bool prime(int x){
     return true;
 }
 int main(){
-    int a;
-    scanf("%d",&a);
     int n;
     scanf("%d",&n);
     int array[n];
