@@ -11,7 +11,7 @@ int main(){
     scanf("%d",&target);
     for(int i = 0 ; i < size ; i++){
         if(array[i] == target){
-            return i;
+            return 0;
         }
     }
     return -1;
