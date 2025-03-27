@@ -7,20 +7,20 @@ int main(){
     for(int i =0 ; i < size ; i++){
         scanf("%d",&array[i]);
     }
-    int even = 0  ;
-    int odd = 0 ;
+    int even_count =0  ;
+    int odd_count  = 0 ;
     for(int i = 0 ; i < size ; i++){
         if(even==0 && array[i]%2==0){
-            even = array[i];
+            even_count++;
             
         }
         
         else if (odd==0 && array[i]%2!=0){
-            odd = array[i] ;
+            odd_count++ ;
           
         }
-        
+    
 
     }
-    printf("%d %d",even,odd);
+    printf("%d %d",even_count,odd_count);
 }
