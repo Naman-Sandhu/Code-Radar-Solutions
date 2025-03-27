@@ -7,10 +7,10 @@ bool prime(int x){
         }
     }
     if(p==1){
-        return 1;
+        return true;
     }
     else{
-        return 0;
+        return false;
     }
 }
 int main(){
