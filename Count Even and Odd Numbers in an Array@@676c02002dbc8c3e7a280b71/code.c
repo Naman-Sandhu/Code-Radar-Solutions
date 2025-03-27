@@ -7,15 +7,27 @@ int main(){
     for(int i =0 ; i < size ; i++){
         scanf("%d",&array[i]);
     }
-    int even = 0 ;
-    int odd = 0 ;
+    count=0;
+    count 1 =0;
     for(int i = 0 ; i < size ; i++){
-        if(even == 0 && array[i]%2==0){
-            even = array[i];
+        if(array[i]%2==0){
+            count++;
         }
-        else if (odd == 0 && array[i]%2!=0){
-            odd = array[i] ;
+        else {
+            count1++;
         }
     }
-    printf("%d %d",&even,&odd);
+    int even[count];
+    int odd[count1];
+    int k = 0;
+    int j = 0;
+    for(int i =0 ; i < size ; i++){
+        if(array[i]%2==0){
+            even[k++]=array[i];
+        }
+        else{
+            odd[j++]=array[i];
+        }
+    }
+    printf("%d %d",even,odd);
 }
