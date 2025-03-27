@@ -14,5 +14,5 @@ int main() {
             break;
         }
     }
-    return -1;
+    printf("-1");
 }
