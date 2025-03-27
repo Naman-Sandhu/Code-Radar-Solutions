@@ -11,10 +11,10 @@ int main(){
     int min=0;
     for(int i = 0 ; i < size ; i++){
         if(array[i]>max){
-            max=max+array[i];
+            max=array[i];
         }
         else if(array[i]<min){
-            min=min+array[i];
+            min=array[i];
         }
     }
     printf("%d %d",min,max);
