@@ -15,7 +15,7 @@ int main(){
         }
     }
     for(int i=0;i<size;i++){
-        if(arr[i] > max){
+        if(array[i] > max){
             max = arr[i];
             sec = max;
         }
