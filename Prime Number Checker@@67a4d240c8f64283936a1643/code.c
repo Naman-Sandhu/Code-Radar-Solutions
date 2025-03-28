@@ -1,6 +1,6 @@
 bool isprime(int n){
     int p=1;
-    f (n <= 1)
+    if (n <= 1)
     { return false;
     }
     for(int i = 2 ; i*i < n ; i++){
