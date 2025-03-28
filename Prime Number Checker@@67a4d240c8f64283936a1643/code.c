@@ -4,6 +4,6 @@ bool isprime(int n){
         if(n%i==0){
             p=0;
         }
-        return 1;
+        return true;
     }
 }
