@@ -12,6 +12,7 @@ int sort = 1;
 for(int i = 0 ; i < size ; i++ ){
     if(arr[i]>arr[i+1]){
         sort = 0;
+        break;
     }
 }
 if(sort==1){
