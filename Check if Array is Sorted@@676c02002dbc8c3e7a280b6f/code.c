@@ -1,26 +1,22 @@
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+int main(){
     int n;
-    scanf("%d", &n);
-    
+    scanf("%d",&n);
     int arr[n];
-
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-int sorted = 1 ; 
-for(int i = 0 ; i < n-1 ; i++){
-    if(arr[i]>arr[i+1]){
-        sorted=0;
-        break;
+    int size = sizeof(arr)/sizeof(arr[0]);
+    for(int i = 0 ; i < size ; i++){
+        scanf("%d",&arr[i]);
     }
 }
-if(sorted){
-    printf("Sorted\n");
+int sort = 1;
+for(int i = 0 ; i < size ; i++ ){
+    if(arr[i]>arr[i+1]){
+        sort = 0;
+    }
+}
+if(sort==1){
+    printf("Sorted");
 }
 else{
     printf("Not Sorted");
-}
-return 0;
 }
