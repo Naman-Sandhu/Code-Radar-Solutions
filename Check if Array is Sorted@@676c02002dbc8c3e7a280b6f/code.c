@@ -8,18 +8,18 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-int sort = 1;
-for(int i = 0 ; i < size ; i++ ){
-    if(arr[i]>arr[i+1]){
-        sort = 0;
-        break;
+    int sort = 1;
+    for(int i = 0 ; i < size-1 ; i++ ){
+        if(arr[i]>arr[i+1]){
+            sort = 0;
+            break;
+        }
+        sort=1;
     }
-    sort=1;
-}
-if(sort==1){
-    printf("Sorted");
-}
-else{
-    printf("Not Sorted");
-}
+    if(sort==1){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
+    }
 }
