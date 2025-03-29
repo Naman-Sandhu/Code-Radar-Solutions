@@ -14,7 +14,6 @@ for(int i = 0 ; i < size ; i++ ){
         sort = 0;
         break;
     }
-    sort=1;
 }
 if(sort==1){
     printf("Sorted");
