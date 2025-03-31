@@ -1,4 +1,4 @@
-#include<Stdio.h>
+#include<stdio.h>
 int bubbleSort(int arr[],int n){
     int temp;
     for(int i = 0 ; i < n ; i++){
