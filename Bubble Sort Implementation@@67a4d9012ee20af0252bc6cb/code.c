@@ -14,7 +14,7 @@ void bubbleSort(int arr[],int n){
             arr[j+1] = temp;
         }
     }
-    printf("%d",arr[j+1]);
+    printf("%d",arr[n]);
     
 }
 
