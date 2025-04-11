@@ -25,6 +25,6 @@ int main(){
         arr2[k++] = sum(array[i]);
     }
     for(int i=0;i<n;i++){
-        printf("%d",arr2[i]);
+        printf("%d ",arr2[i]);
     }
 }
