@@ -20,8 +20,10 @@ int main(){
     }
     int arr2[n];
     int k = 0;
+    int y = 0;
     for(int i=0;i<n;i++){
-        arr2[k++] = sum(arr[i]);
+        y = arr[i];
+        arr2[k++] = sum(y);
     }
     for(int i=0;i<n;i++){
         printf("%d",arr2[i]);
