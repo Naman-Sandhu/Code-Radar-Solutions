@@ -8,6 +8,10 @@ int sum(int n){
         s+=rem;
         temp=temp/10;
     }
+    if(s<0){
+        s=-s;
+        return s;
+    }
     return s;
 }
 int main(){
