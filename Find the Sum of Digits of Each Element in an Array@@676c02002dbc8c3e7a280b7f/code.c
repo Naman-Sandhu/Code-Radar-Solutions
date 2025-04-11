@@ -22,8 +22,7 @@ int main(){
     int k = 0;
     int y = 0;
     for(int i=0;i<n;i++){
-        y = array[i];
-        arr2[k++] = sum(y);
+        arr2[k++] = sum(array[i]);
     }
     for(int i=0;i<n;i++){
         printf("%d",arr2[i]);
