@@ -22,7 +22,7 @@ int main(){
     int k = 0;
     int y = 0;
     for(int i=0;i<n;i++){
-        y = arr[i];
+        y = array[i];
         arr2[k++] = sum(y);
     }
     for(int i=0;i<n;i++){
